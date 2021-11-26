@@ -23,6 +23,16 @@ main{
     min-height: calc(100vh - 38px);
 }
 
+footer{
+   background-color: rgb(34,34,34);
+   font-size: 20px;
+   color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
 /* UTILITIES  */
 
 .container{
@@ -34,6 +44,11 @@ main{
     flex-wrap: wrap;
 }
 
+.dir-column{
+    display: flex;
+    flex-direction: column;
+}
+
 /* HEADER-BAR  */
 
 .audio{
@@ -41,6 +56,7 @@ main{
 }
 
 header .audio::before{
+    font-family: 'Font Awsome 5 Free';
     content: '\f00a';
     position: absolute;
     left: 0;
@@ -80,4 +96,8 @@ main .col{
     position: absolute;
     left: 0;
     bottom: 0;
+}
+
+.fa-microphone{
+    font-size: 2em;
 }
