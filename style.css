@@ -12,6 +12,13 @@ header{
     color: white;
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+main{
+    padding-top: 50px;
+    background-color: black;
+    height: calc(100vh - 38px);
 }
 
 /* UTILITIES  */
@@ -19,6 +26,8 @@ header{
 .container{
     width: 1200px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* HEADER-BAR  */
@@ -45,4 +54,15 @@ header a{
 }
 
 
+/* MAIN  */
 
+main .col{
+    flex-basis: calc(90% / 7 );
+    }
+
+.card{
+    background-image: url("https://i.picsum.photos/id/360/200/300.jpg?hmac=Fl1CgUfxrFjmcS1trYDG80XpEjYixcXfc2uTtCxFkDw");
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
