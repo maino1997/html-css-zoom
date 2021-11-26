@@ -25,8 +25,9 @@ main{
 
 footer{
    background-color: rgb(34,34,34);
-   font-size: 20px;
+   font-size: 13px;
    color: white;
+   padding: 10px;
 }
 
 a{
@@ -49,6 +50,16 @@ a{
     flex-direction: column;
 }
 
+.dir-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.just-center{
+    justify-content: center;
+    align-items: center;
+}
+
 /* HEADER-BAR  */
 
 .audio{
@@ -56,7 +67,7 @@ a{
 }
 
 header .audio::before{
-    font-family: 'Font Awsome 5 Free';
+    font-family: 'Font Awsome 6 Free';
     content: '\f00a';
     position: absolute;
     left: 0;
@@ -98,6 +109,16 @@ main .col{
     bottom: 0;
 }
 
-.fa-microphone{
+
+/* FOOTER  */
+
+footer a{
+    display: flex;
+    align-items: center;
+    margin: 0 5px 0 5px;
+}
+
+.fa-microphone , .fa-video{
     font-size: 2em;
 }
+
