@@ -1,15 +1,10 @@
+/* GENERALS  */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* GENERALS  */
-
-/* body{
-    background-color: black;
-} */
-
 
 header{
     background-color: black;
