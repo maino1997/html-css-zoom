@@ -71,6 +71,14 @@ li{
     flex-wrap: wrap;
 }
 
+.btn{
+    color: white;
+}
+
+.btn:hover{
+    color: rgb(0, 132, 255);
+}
+
 .dir-column{
     display: flex;
     flex-direction: column;
