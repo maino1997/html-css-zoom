@@ -88,19 +88,16 @@ li{
 
 /* HEADER-BAR  */
 
-.audio{
+.speaker{
     position: relative;
 }
 
-header .audio::before{
-    font-family: 'Font Awsome 6 Free';
-    content: '\f00a';
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translate(0 , -50%);
-    padding: 10 px;
- }
+
+header .fa-th{
+    padding-right: 5px;
+}
+
+
 header a{
     background-color: grey;
     padding: 5px 10px 5px 10px;
