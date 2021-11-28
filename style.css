@@ -95,8 +95,13 @@ li{
 
 
 .selector{
+    display: flex;
     height: 100%;
+    width: 25%;
+}
 
+.justify-end{
+    justify-content: flex-end;
 }
 
 /* HEADER-BAR  */
@@ -176,8 +181,15 @@ footer .fa-angle-up{
     color: rgb(73,197,1);
 }
 
+.main-nav{
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .right{
-    width: 100px;
+    width: 50%;
     background-color: rgb(74,74,74);
     display: flex;
     justify-content: center;
