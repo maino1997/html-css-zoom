@@ -167,7 +167,8 @@ footer a{
 }
 
 footer i{
-    margin-bottom: 5px;
+    padding-top: 10px;
+    height: 60%;
 }
 
 footer .fas , footer .far{
@@ -180,6 +181,10 @@ footer .fa-angle-up{
 
 .fa-share-square{
     color: rgb(73,197,1);
+}
+
+.footer span{
+    height: 40%;
 }
 
 .main-nav{
