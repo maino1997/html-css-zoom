@@ -160,13 +160,14 @@ main .col{
 /* FOOTER  */
 
 footer a{
+    height: 100%;
     display: flex;
     align-items: center;
     margin: 0 8px 0 8px;
 }
 
 footer i{
-    margin: 5px;
+    margin-bottom: 5px;
 }
 
 footer .fas , footer .far{
