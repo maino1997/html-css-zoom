@@ -189,17 +189,26 @@ footer .fa-angle-up{
     justify-content: center;
 }
 
-.right{
-    width: 50%;
-    background-color: rgb(74,74,74);
+.selector:last-child{
+    /* width: 50%; */
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
+.right{
+    height: 100%;
+}
 
 .right a{
+    background-color: rgb(74,74,74);
+    display: flex;
     width: 100%;
-    padding: 0 10px 0 10px;
+    height: 100%;
+    padding: 0 10px 0 15px;
     color: rgb(230, 69, 54);
+}
+
+.right span{
+   justify-content: center;
 }
